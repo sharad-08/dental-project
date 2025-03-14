@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.contect{
+    height:35px;
+    border: solid blue;
+    background-color:#3939f8;
+    display: flex;
+   padding: 5px;
+    align-items: center;
+}
+.contectbox{
+    height:70%;
+    width: 100%;
+    background-color:#3939f8;
+    display: flex;
+    }
+.contect1{
+  
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+.icon1{
+   
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:x-small;
+    font-weight: 100;
+    padding-left: 5px;
+}
+.ar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.iconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white ;
+    border-radius: 50%;
+    height: 19px;
+    width: 19px;
+    background-color: white;
+    margin-right: 5px;
+}
+.nav1{
+    height: 70px;
+    background-color: aliceblue;
+    border: solid ;
+    display: flex;
+    justify-content: center;
+
+
+}
+.ar2{
+    height: 100%;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.teeth1{
+    width: 25%;
+
+}
+.teeth1box{
+    width: 35px;
+    height: 35px;
+    background-color: #3939f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 50% 50% 10% ;
+    padding-right: 5px;
+
+}
+.dental1{
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+.item1{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.itemname1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book1{
+    width: 25%;
+}
