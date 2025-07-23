@@ -2,12 +2,13 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .contect{
-    height:35px;
-    border: solid blue;
-    background-color:#3939f8;
+    height:40px;
+   
+    background-color:#263FF5;
     display: flex;
    padding: 5px;
     align-items: center;
@@ -15,7 +16,7 @@
 .contectbox{
     height:70%;
     width: 100%;
-    background-color:#3939f8;
+    background-color:#263FF5;
     display: flex;
     }
 .contect1{
@@ -33,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* align-content: center; */
+   
 
 }
 a{
@@ -61,9 +62,7 @@ a{
     margin-right: 5px;
 }
 .nav1{
-    height: 70px;
-    background-color: aliceblue;
-    border: solid ;
+    height: 90px;
     display: flex;
     justify-content: center;
 
@@ -71,7 +70,6 @@ a{
 }
 .ar2{
     height: 100%;
-    border: solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +82,7 @@ a{
 .teeth1box{
     width: 35px;
     height: 35px;
-    background-color: #3939f8;
+    background-color:#263FF5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,8 +105,909 @@ a{
 .itemname1{
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 14px;
+    font-weight: 500;
 }
 .book1{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.book1box{
+    height: 35px;
+    width: 90px;
+    background-color:#263FF5;
+   border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.book1now{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight:550;
+}
+.infobox1{
+    height:450px ;
+    background-color: rgb(241, 245, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ar3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ih1{
+    width: 70%;
+    height: 10%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 50px;
+  }
+.h1logo{
+    height: 27px;
+    width: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+ 
+    
+}
+.h1info{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:13px;
+    margin-right: 15px;
+}
+.ih2{
+    width: 70%;
+    height: 25%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-left: 0px;
+
+}
+.ih21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    
+}
+
+.h2black{
+        padding-right: 5px;
+        font-weight: bolder;
+     
+        
+       
+}
+.h2blue{
+    color:#263FF5;
+}
+.ih22{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+}
+.h2white{
+    padding-left: 5px;
+}
+.ih3{
+ 
+    width: 70%;
+    height: 10%;
+    margin: 5px;
+}
+.h3info{
+    font-size:11px ;
+}
+.explore{
+   
+    width: 70%;
+    height: 8%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.explorebox{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#263FF5;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+}
+.exp1{
+    font-weight: 500;
+   
+}
+.watch{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.watch1{
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration:double;
+    border-bottom: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10pxpx;
+   
+}
+.watchlogo{
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.infoimagebox{
+    position: relative;
+}
+.imagebg1{
+    width: 40%;
+    height: 60%;
+    border: solid #263FF5 ;
+    border-radius: 130% 180% 180% 100%;
+    bottom: 5px;
+    background-color: #263FF5;
+    margin-bottom: 40px;
+    position: absolute;
+    margin-right: 150px;
+
+}
+.image1box{
+    position: relative;
+    overflow:visible;
+    height: 90%;
+    width: 80%;
+    position: absolute;
+    margin-bottom: 15px;
+    
+
+}
+.image1in{
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-wrap: anywhere;
+}
+
+.image1{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+  
+}
+
+
+
+
+.info2{
+    height:400px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.ar4{
+    height: 100%;
+    width: 200%;
+}
+.image2{
+  
+    
+  
+}
+.image2box{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    overflow:hidden;
+    align-self: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+    
+
+    
+}
+.imageteeth{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 80%;
+   
+   
+}
+
+
+.bookbox2{
+    background-color: rgb(242, 247, 247);
+    
+    height: 70px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -30px;
+    display: flex;
+    border-radius: 20px;
+   box-shadow: #d8d4d4 2px 2px 20px  ;
+ 
+}
+.inbookbox{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-self: center;
+}
+.ar5{
+    border-right: solid rgba(0, 0, 0, 0.296) 1px ;
+    height: 100%;
+    width: 19%;
+    font-size: 20px;
+
+
+}
+
+.ar6{
+    border: none;
+    
+   
+}
+.book2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263FF5;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.bookd{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.bookicon{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+.detail1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.about{
+    font-weight: bolder;
+}
+.dh1blue{
+    margin-top: 10px;
+    color: #263FF5;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.dh1black{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.dp2{
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.check1{
+    display: flex;
+    margin-top: 10px;
+}
+.checkp{
+    margin-left: 10px;
+}
+.learnmore{
+    height: 35px;
+    width: 110px;
+    margin-top: 30px;
+    background-color: #263FF5;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+.headline{
+    height: 40px;
+    display: flex;
+    background-color: #263FF5;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.servicesout{
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicesin{
+ 
+    height: 85%;
+    width: 85%;
+
+}
+.sd{
+    
+    height: 25%;
+    display: flex;
+}
+.textsd{
+    width: 70%;
+   
+}
+.sdblue{
+    margin-top: 10px;
+    color: #263FF5;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sdblack{
+    font-size: 30px;
+    font-weight: 900;
+}
+.expmore{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+.expmorein{
+    border:solid  #263FF5;
+    color: white;
+    background-color: #263FF5;
+    border-radius: 50px;
+    height: 30px;
+    width: 150px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.scard{
+   
+    height: 70%;
+    display: flex;
+    margin-top: 5px;
+}
+.scardin{
+    width: 34%;
+    border-radius: 20px;
+    margin: 0px 5px 0px 5px;
+
+}
+.simagebox{
+    height: 50%;
+    
+    border-radius: 20px 20px 0px 0px  ;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+
+    width:100%;
+    overflow-wrap: anywhere;
+
+}
+.simage{
+    border-radius: 20px 20px 0px 0px  ;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.sinfo{
+    position: relative;
+}
+.steeeethlogo{
+    height: 50px;
+    width: 50px;
+    border:#ffffff solid;
+    border-radius: 50%;
+    background-color: #263FF5;
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.sinfoin{
+    position: absolute;
+    top: 30px;
+}
+.sh1{
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 10px;
+}
+.sh2{
+    font-weight: lighter;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.learn{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.slearn{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.diff{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diffin{
+    height: 85%;
+    width: 85%;
+}
+.diffinfobox{
+    height: 20%;
+    display: flex;
+}
+.diffinfo{
+    width: 50%;
+}
+.trans{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.after{
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.diffblack{
+         font-size: 25px;
+         margin-top: 5px;
+}
+.diffblue{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #263FF5;
+}
+.transin{
+    border:#263FF5 solid ;
+    height: 30px;
+    width: 150px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #263FF5;
+    color: white;
+    margin-bottom: 10px;
+}
+.diffimage{
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    overflow:hidden;
+    border-radius: 20px;
+    
+
+}
+.dimage{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.teamout{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamin{
+    height: 80%;
+    width: 85%;
+}
+.th{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.our{
+    font-size: small;
+}
+.meet{
+    margin-top: 10px;
+    display: flex;
+    font-size:33px;
+    font-weight: 900;
+    
+}
+.mblack{
+    margin-right: 10px;
+}
+.mblue{
+    font-size:33px;
+    font-weight: 900;
+    color: #263FF5;
+}
+
+.tcard{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.tcardin{
+    height: 100%;
+    width: 34%;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.tcardin:hover{
+    box-shadow: #263FF5  0.5px 3px 1px 0px;
+}
+.timagebox{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px ;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    overflow:hidden;
+ 
+}
+.timage{
+    object-fit: cover;
+    object-position: -1px 0px ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.tcardin:hover img{
+    filter: brightness(0.8);
+
+   
+   
+}
+.tinfo{
+    height: 20%;
+    position: relative;
+}
+.tdname{
+    font-weight: 900;
+    margin: 10px 10px 5px 10px;
+}
+.tp{
+      font-weight: lighter;
+      font-size: small; 
+      margin: 0px 10px 5px 10px;
+} 
+
+.ticon{
+    height: 40px;
+    width: 90%;
+    position: absolute;
+   
+    top: -60px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    margin-left: 10px;
+    opacity: 0;
+    
+}
+.tcardin:hover .ticon{
+    opacity: 1;
+}
+
+.ticonout{
+     border: solid white 3px ;
+     width:30px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     align-content: center;
+
+      
+}
+.ticonin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqout{
+    height: 600px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#111e3e ;
+
+}
+.faqin{
+    height: 85%;
+    width: 85%;
+}
+.faqhedbox{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.faqh1{
+    display: flex;
+    margin-top:10px;
+    color: white;
+}
+.faqblue{
+    color: #2843cc;
+    font-weight: 900;
+    font-size: 20px;
+}
+.faqwhite{
+
+ font-weight: 900;
+    font-size: 20px;
+}
+.faqbox{
+    height: 80%;
+    display: flex;
+}
+.faqleft{
+    width: 60%;
+   
+  
+    
+}
+.faqlh1{
+    border: solid white;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+   
+   
+
+}
+
+.fld1{
+       font-weight: bolder;
+     
+     
+}
+.flsa{
+    border:#263FF5 solid 20px;
+    color: white;
+    background-color: #263FF5;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px ;
+    box-shadow: white 0.5px 1px 0px 0.5px ;
+    position: relative;
+   
+
+    
+  
+    
+}
+.faqright{
+    width: 40%;
+    height: 90%;
+}
+.fru{
+    height: 50%;
+    margin: 0px 10px 10px ;
+    background-color: #263FF5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fruin{
+    width: 85%;
+    height: 85%;
+    
+}
+.ficon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.fid{
+    color: white;
+    margin-top: 30px;
+    
+}
+.fiq{
+    font-size:15px;
+    font-weight: 900;
+     text-align: center;
+}
+.fiq1{
+    font-size: small;
+    margin-top: 15px ;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+.ficout{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.fic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #263FF5;
+    background-color: white;
+    height: 30px;
+    width: 130px;
+    font-size: 13px;
+    border-radius: 20px;
+   
+    
+} 
+
+.frd{
+    height: 25%;
+    margin: 0px 10px 10px ;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frdin{
+    width: 85%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.frdi{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.frdd{
+   
+    padding: 3px;
+    
+}
+.frdh1{
+    font-size: small;
+    margin-top: 8px;
+   
+}
+.emer{
+    font-weight: 900;
+    font-size: 15px;
+    margin: 3px 0px 8px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
